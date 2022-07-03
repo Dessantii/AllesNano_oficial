@@ -1,80 +1,98 @@
 /*padroniza os links de navegação*/
-#banner{
+
+#banner {
     background-color: #13294b;
 }
 
-.nav-link, .navbar-brand{
+.nav-link,
+.navbar-brand {
     border-bottom: solid 4px transparent;
 }
 
-.nav-link:hover, .navbar-brand-destaque:hover, .nav-link:focus, .navbar-brand:focus{
+.nav-link:hover,
+.navbar-brand-destaque:hover,
+.nav-link:focus,
+.navbar-brand:focus {
     border-bottom: solid 4px #fec107;
     color: #fec107 !important;
 }
 
+
 /*para os link em fundo laranja*/
 
-.nav-link-dark:hover, .nav-link-dark:focus{
+.nav-link-dark:hover,
+.nav-link-dark:focus {
     background-color: #212429;
     color: rgba(255, 255, 255, 0.938) !important;
 }
 
-.hover-button:hover, .hover-button:focus{
+.hover-button:hover,
+.hover-button:focus {
     color: #fec107;
 }
 
-.subtitulo{
+.subtitulo {
     text-decoration: underline #fec107 4px;
 }
 
-.secao{
+.secao {
     min-height: 100vh;
 }
 
-#Navegador.active{
+#Navegador.active {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.493);
     z-index: 9999;
     background-color: #020c1b;
 }
 
+
 /*Animação dos cards*/
 
-.card{
+.card {
     background: #f0f0f0;
     border-radius: 5px;
     transition: All ease-out 0.2s;
 }
 
-.card:hover{
+.card:hover {
     background: #ffffff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
     transform: scale(1.02);
 }
 
-/* configurando campos de números*/
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
-}
-input[type=number] { 
-   -moz-appearance: textfield;
-   appearance: textfield;
 
+/* configurando campos de números*/
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+
 /*escondendo partes do site*/
-#apagado, #descriReligiao, #descriOrientacao, #FiltroHiddenTipo, #FiltroHidden{
+
+#apagado,
+#descriReligiao,
+#descriOrientacao,
+#FiltroHiddenTipo,
+#FiltroHidden {
     display: none;
 }
 
-.dashboardUser{
+.dashboardUser {
     height: 90vh;
 }
 
-#Fale, #sticky-footer {
+#Fale,
+#sticky-footer {
     background-color: #020c1b;
 }
 
-#imagemteste{
+#LogoPrincipal {
     width: 175px;
     height: 175px;
     display: inline-block;
@@ -82,60 +100,59 @@ input[type=number] {
     border-radius: 150px;
     margin-top: 100px;
     margin-left: 600px;
-
 }
 
-#imagemteste:hover{
+#LogoPrincipal:hover {
     transition: 1s;
-    color: rgb(255, 232, 183); 
+    color: rgb(255, 232, 183);
     background: rgb(255, 232, 183);
     box-shadow: 0 0 10px rgb(255, 232, 183), 0 0 40px rgb(255, 232, 183), 0 0 80px rgb(255, 232, 183);
 }
 
-#AlinhamentoQuemSomos{
+#AlinhamentoQuemSomos {
     margin-top: 200px;
 }
 
-#quemsomosimg{
+#quemsomosimg {
     margin-top: 170px;
 }
 
-#allesnano{
+#allesnano {
     margin-top: -248px;
     margin-left: 20px;
 }
 
-#AlinhamentoMissao{
+#AlinhamentoMissao {
     margin-top: 200px;
 }
 
-#imgmissao{
+#imgmissao {
     margin-top: 200px;
     height: 280px;
 }
 
-#AlinhamentoVisao{
+#AlinhamentoVisao {
     margin-top: 200px;
 }
 
-#imgvisao{
+#imgvisao {
     margin-top: 170px;
     height: 280px;
 }
 
-#AlinhamentoValores{
+#AlinhamentoValores {
     margin-top: 200px;
 }
 
-#imgvalores{
+#imgvalores {
     margin-top: 180px;
     height: 260px;
 }
 
-#AlinhamentoTitulos{
+#AlinhamentoTitulos {
     text-align: center;
 }
 
-#testeletra{
+#testeletra {
     text-align: center;
 }
